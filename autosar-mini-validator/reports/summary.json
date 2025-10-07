@@ -1,0 +1,22 @@
+{
+  "file": "sample.arxml",
+  "errors": 1,
+  "warnings": 2,
+  "issues": [
+    {
+      "rule": "DUP_SHORT_NAME",
+      "message": "Duplicate SHORT-NAME 'BatteryMonitor'",
+      "xpath": "/AUTOSAR/AR-PACKAGES/AR-PACKAGE/ELEMENTS/APPLICATION-SW-COMPONENT-TYPE[1]"
+    },
+    {
+      "rule": "DUP_SHORT_NAME",
+      "message": "Duplicate SHORT-NAME 'BatteryMonitor'",
+      "xpath": "/AUTOSAR/AR-PACKAGES/AR-PACKAGE/ELEMENTS/APPLICATION-SW-COMPONENT-TYPE[2]"
+    },
+    {
+      "rule": "NO_TYPE_TREF",
+      "message": "VARIABLE-DATA-PROTOTYPE 'SoC_BUG' missing TYPE-TREF",
+      "xpath": "/AUTOSAR/AR-PACKAGES/AR-PACKAGE/ELEMENTS/SENDER-RECEIVER-INTERFACE/DATA-ELEMENTS/VARIABLE-DATA-PROTOTYPE[2]"
+    }
+  ]
+}
