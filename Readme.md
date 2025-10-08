@@ -1,6 +1,6 @@
-# AUTOSAR Mini Validator (Demo)
+# AUTOSAR Mini Validator
 
-A lightweight Python proof-of-concept to validate AUTOSAR `.arxml` files.
+A lightweight Python to validate AUTOSAR `.arxml` files.
 
 ### Rules Implemented
 - **DUP_SHORT_NAME** – detects duplicate element names
